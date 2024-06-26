@@ -77,16 +77,16 @@
 
 .img_git {
   position: absolute;
-  top: 42.9rem; /* Posición vertical */
-  left: 47.7rem; /* Posición horizontal */
+  top: 26.8vw; /* Posición vertical */
+  left: 30vw; /* Posición horizontal */
   height: 3rem;
   width: auto;
   border-radius: 20%;
 }
 .img_wsp {
   position: absolute;
-  top: 15.8rem; /* Posición vertical */
-  left: 75rem; /* Posición horizontal */
+  top: 10vw; /* Posición vertical */
+  left: 46.7vw; /* Posición horizontal */
   height: 3rem;
   width: 3rem;
   border-radius: 20%;
