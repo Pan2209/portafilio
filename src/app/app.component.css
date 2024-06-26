@@ -20,7 +20,7 @@
 }
 
 .t {
-  width: 500px;
+  width: 1000px;
   animation-duration: 2ms;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -78,7 +78,7 @@
 .img_git {
   position: absolute;
   top: 42.9rem; /* Posición vertical */
-  left: 47rem; /* Posición horizontal */
+  left: 47.7rem; /* Posición horizontal */
   height: 3rem;
   width: auto;
   border-radius: 20%;
@@ -172,7 +172,7 @@
   border-radius: 20%;
   position: absolute;
   top: 2rem;
-  left: 75rem;
+  right: 50rem;
 }
 .certifies {
     width: 135px;
@@ -189,3 +189,11 @@
     margin-top: -1.9rem;
     margin-left: 8rem;
   }
+.img_email{
+    position: absolute;
+    bottom: 22.6rem; /* Posición vertical */
+    left: 58rem; /* Posición horizontal */
+    height: 3rem;
+    width: auto;
+    border-radius: 20%;
+}
