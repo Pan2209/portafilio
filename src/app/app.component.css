@@ -1,0 +1,74 @@
+.container {
+  /* Contenedor que contiene tanto el frame como el texto */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.frame {
+  width: 1280px;
+  height: 832px;
+  background: #9a63ce;
+  /* Añade padding para que el texto tenga espacio */
+  padding: 20px;
+  /* Añade display flex para que el texto se posicione arriba a la izquierda */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.t {
+  /* Quita margin: auto; ya que no es necesario */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:900;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #ffffff;
+}
+
+.info {
+  width: 135px;
+  height: 53px;
+  display: flex;
+  flex-shrink: 0;
+  color: #fff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifS;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.parrafo {
+  width: 35rem;
+  height: 20%;
+  display:flex;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "JetBrains Mono";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.img {
+  width: 150px; /* ajusta el ancho de la imagen */
+  height: 150px; /* ajusta el alto de la imagen */
+  margin-left: 20px; /* agrega un margen izquierdo para separar la imagen del párrafo */
+}
+
+.img {
+    object-fit:fill;
+    border-radius: 50%;
+    height: auto; /* Alto del bloque, ajusta según sea necesario */
+    width: auto; /* Ancho del bloque, ajusta según sea necesario */
+    margin-top: 100rem;
+    margin-left: 45rem;
+  }
