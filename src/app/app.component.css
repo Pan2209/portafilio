@@ -8,7 +8,7 @@
 .frame {
   width: 1280px;
   height: 832px;
-  background: #9a63ce;
+  background: #70e070;
   /* Añade padding para que el texto tenga espacio */
   padding: 20px;
   /* Añade display flex para que el texto se posicione arriba a la izquierda */
@@ -18,9 +18,11 @@
 }
 
 .t {
-  /* Quita margin: auto; ya que no es necesario */
+    width: 500px;
+    animation-duration: 2ms;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight:900;
+  font-weight: 700;
+  text-shadow: 0 0 5px #000000;
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
